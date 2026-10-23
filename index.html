@@ -51,10 +51,11 @@
 
         <main>
             <article>
-                <img src="https://picsum.photos/1200/600?random=1" alt="Placeholder Image" width="1200" height="600" loading="lazy">
-                <h2>Featured Article Title</h2>
+                <img id="pic1" ondblclick="changePic()" src="https://picsum.photos/1200/600?random=1" alt="Placeholder Image" width="1200" height="600" loading="lazy">
+
+                <h2 id="pic1-title" onmouseover="changeTitle()">Featured Article Title</h2>
                 <div class="article-meta">Published on October 22, 2026</div>
-                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p id="pic1-desc">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </article>
 
             <article>
@@ -81,9 +82,11 @@
     </footer>
 
 <!--    Add javascript code here-->
-    <script> 
-    
+    <script src="js/script.js">
 
-    </script>
+    </script> 
+     
+
+    
 </body>
 </html>
